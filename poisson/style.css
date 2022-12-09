@@ -1,0 +1,130 @@
+body{
+    background-color: green;
+}
+
+.st3{
+    animation-name : roll;
+    animation-delay: 0s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes roll{
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    10% {
+        transform: translateX(-5vw) translateY(5vh);
+    }
+    30% {
+        transform: translateX(-10vw) translateY(0vh);
+    }
+    40% {
+        transform: translateX(-15vw) translateY(-5vh);
+    }
+    50% {
+        transform: translateX(-20vw) translateY(0vh);
+    }
+    60% {
+        transform: translateX(-25vw) translateY(5vh);
+    }
+    70% {
+        transform: translateX(-30vw) translateY(0vh);
+    }
+    80% {
+        transform: translateX(-35vw) translateY(-5vh);
+    }
+    90% {
+        transform: translateX(-40vw) translateY(0vh);
+    }
+    100% {
+        transform: translateX(-45vw) translateY(5vh);
+    }
+}
+
+.diam4{
+    animation-name: up;
+    animation-delay: 0s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+.diam5{
+    animation-name: up;
+    animation-delay: 0s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+.diam7{
+    animation-name: up;
+    animation-delay: 0s;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+}
+.diam8{
+    animation-name: up;
+    animation-delay: 0s;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+.diam9{
+    animation-name: up;
+    animation-delay: 0s;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+}
+.diam7{
+    animation-name: up;
+    animation-delay: 0s;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+}
+.diam10{
+    animation-name: up;
+    animation-delay: 0s;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+.diam11{
+    animation-name: up;
+    animation-delay: 0s;
+    animation-duration: 11s;
+    animation-fill-mode: forwards;
+}
+.diam13{
+    animation-name: up;
+    animation-delay: 0s;
+    animation-duration: 13s;
+    animation-fill-mode: forwards;
+}
+.diam16{
+    animation-name: up;
+    animation-delay: 0s;
+    animation-duration: 16s;
+    animation-fill-mode: forwards;
+}
+.diam19{
+    animation-name: up;
+    animation-delay: 0s;
+    animation-duration: 19s;
+    animation-fill-mode: forwards;
+}
+.diam25{
+    animation-name: up;
+    animation-delay: 0s;
+    animation-duration: 25s;
+    animation-fill-mode: forwards;
+}
+.diam42{
+    animation-name: up;
+    animation-delay: 0s;
+    animation-duration: 42s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes up{
+    from {
+        transform: translateY(0vh);
+    }
+    to {
+        transform: translateY(-90vh);
+    }
+}
