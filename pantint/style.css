@@ -1,0 +1,140 @@
+svg{
+    height: 100vh;
+}
+
+#bras_droite, #main_droite, #doigt_droite{
+    transform-origin: 270px 160px;
+    animation: tourner 4s backwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tourner{
+    10% {
+        transform: rotate(180deg);
+    }
+    20%{
+        transform: rotate(-40deg);
+    }
+    30% {
+        transform: rotate(180deg);
+    }
+    40%{
+        transform: rotate(-40deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    60%{
+        transform: rotate(-40deg);
+    }
+    70% {
+        transform: rotate(180deg);
+    }
+    80%{
+        transform: rotate(-40deg);
+    }
+    90% {
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(-40deg);
+    }
+}
+
+#bras_gauche, #main_gauche, #doigt_gauche{
+    transform-origin: 190px 160px;
+    animation: tourner2 4s backwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tourner2{
+    25% {
+        transform: rotate(40deg);
+    }
+    50%{
+        transform: rotate(-50deg);
+    }
+    75% {
+        transform: rotate(40deg);
+    }
+    100% {
+        transform: rotate(00deg);
+    }
+    
+}
+#tete{
+    transform-origin: 230px 160px;
+    animation: tourner3 4s backwards;
+    animation-iteration-count: infinite;
+}
+@keyframes tourner3{
+    10% {
+        transform: rotate(20deg);
+    }
+    20%{
+        transform: rotate(-20deg);
+    }
+    30% {
+        transform: rotate(20deg);
+    }
+    40%{
+        transform: rotate(-20deg);
+    }
+    50% {
+        transform: rotate(20deg);
+    }
+    60%{
+        transform: rotate(-20deg);
+    }
+    70% {
+        transform: rotate(20deg);
+    }
+    80%{
+        transform: rotate(-20deg);
+    }
+    90% {
+        transform: rotate(20deg);
+    }
+    100%{
+        transform: rotate(-20deg);
+    }
+}
+
+.jambe1{
+    transform-origin: 200px 280px;
+    animation: tourner4 4s backwards;
+    animation-iteration-count: infinite;
+}
+@keyframes tourner4{
+    25%{
+        transform: rotate(20deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.jambe2{
+    transform-origin: 270px 280px;
+    animation: tourner5 4s backwards;
+    animation-iteration-count: infinite;
+}
+@keyframes tourner5{
+    25%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-20deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

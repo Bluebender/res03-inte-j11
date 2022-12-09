@@ -1,0 +1,26 @@
+svg{
+    height: 80vh;
+}
+
+#vert{
+    animation: green_light 2s forwards;
+}
+#orange{
+    animation: orange_light 2s 1s forwards;
+}
+#rouge{
+    animation: red_light 2s 2s forwards;
+}
+
+@keyframes green_light{
+    50% {fill: green;}
+    100%{fill: #353535;}
+}
+@keyframes orange_light{
+    50% {fill: orange;}
+    100%{fill: #353535;}
+}
+@keyframes red_light{
+    50% {fill: red;}
+    100%{fill: #353535;}
+}
